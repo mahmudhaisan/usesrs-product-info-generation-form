@@ -24,12 +24,12 @@ define("PLUGINS_PATH", plugin_dir_path(__FILE__));
 //adding stylesheets and scripts
 function users_product_info_generation_scripts()
 {
-    wp_enqueue_style('bootstrap-min', plugin_dir_url(__FILE__) . 'css/bootstrap.min.css');
-    wp_enqueue_style('style-css-ss', plugin_dir_url(__FILE__) . 'css/style.css');
-    wp_enqueue_style('fontawesome-css-min', plugin_dir_url(__FILE__) . 'css/fontawesome.min.css');
+    wp_enqueue_style('bootstrap-min', plugin_dir_url(__FILE__) . 'assets/css/bootstrap.min.css');
+    wp_enqueue_style('style-css-ss', plugin_dir_url(__FILE__) . 'assets/css/style.css');
+    wp_enqueue_style('fontawesome-css-min', plugin_dir_url(__FILE__) . 'assets/css/fontawesome.min.css');
 
-    wp_enqueue_script('bootstrap-min', plugin_dir_url(__FILE__) . 'js/bootstrap.min.js', array('jquery'), '1.0.0', true);
-    wp_enqueue_script('script', plugin_dir_url(__FILE__) . 'js/script.js', array('jquery'), '1.0.0', true);
+    wp_enqueue_script('bootstrap-min', plugin_dir_url(__FILE__) . 'assets/js/bootstrap.min.js', array('jquery'), '1.0.0', true);
+    wp_enqueue_script('script', plugin_dir_url(__FILE__) . 'assets/js/script.js', array('jquery'), '1.0.0', true);
     wp_localize_script(
         'script',
         'generate_user_product_info',
