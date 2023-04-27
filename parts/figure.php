@@ -22,7 +22,7 @@
                         Create Up to 2 Figure groups..
                     </div>
                     <div class="col-md-1">
-                        <button class="btn btn-dark">
+                        <button class="btn btn-dark figure-add-new">
                             <i class="fa-solid fa-plus"></i>
                         </button>
                     </div>
@@ -35,14 +35,14 @@
 
             <!-- input field -->
             <div class="group-input-field p-2">
-                <div class="form-group">
+                <div class="form-group figure-group-wrapper">
 
 
-                    <input type="text" class="form-control mt-2" id="product-title-searching-input"
-                        placeholder="Figure Fields">
+                    <input type="text" class="form-control mt-2" name="figure-group-input[]" placeholder="Figure Fields"
+                        required>
 
-                    <input type="text" class="form-control mt-2" id="product-title-searching-input"
-                        placeholder="Figure Fields">
+                    <input type="text" class="form-control mt-2" name="figure-group-input[]" placeholder="Figure Fields"
+                        required>
 
                 </div>
 

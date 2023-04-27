@@ -14,8 +14,8 @@
 
             <div class="form-group">
                 <label for="product-title-searching-input"></label>
-                <input type="text" class="form-control" name="product_info_title" id="product-title-searching-input"
-                    placeholder="Enter Your Product Title">
+                <input type="text" class="form-control" name="product-info-title" id="product-title-searching-input"
+                    placeholder="Enter Your Product Title" required>
             </div>
 
         </div>

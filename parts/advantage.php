@@ -23,7 +23,7 @@
                         Create Up to 5 advantage groups..
                     </div>
                     <div class="col-md-1">
-                        <button class="btn btn-dark">
+                        <button class="btn btn-dark" id="advantage-group-create-new">
                             <i class="fa-solid fa-plus"></i>
                         </button>
                     </div>
@@ -31,37 +31,35 @@
 
             </div>
 
-            <!-- Advantage group with input -->
-            <div id="advantage-group-with-input-1">
-                <div class="advantage-group-input-row">
-                    <!-- Advantage group main title bar -->
-                    <div class="bg-dark text-white h5 p-2 add-new-group-field">
-                        <div class="row">
-                            <div class="col-md-10">Group Two</div>
-                            <div class="col-md-2">
-                                <button class="btn btn-success">
-                                    <i class="fa-solid fa-edit"></i>
-                                </button>
-                                <button class="btn btn-danger">
-                                    <i class="fa-solid fa-minus"></i>
-                                </button>
+            <!-- Advantage groupwrapper -->
+            <div id="advantage-group-wrapper">
+                <!-- Advantage group with input -->
+                <div class="advantage-group-with-input">
+
+                    <div class="advantage-group-input-row">
+                        <!-- Advantage group main title bar -->
+                        <div class="bg-dark text-white h5 p-2 add-new-group-field">
+                            <div class="row">
+                                <div class="col-md-12">Advantage Group Fields</div>
+
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Advantage group input field -->
-                    <div class="group-input-field p-2">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="product-title-searching-input"
-                                placeholder="advantage fields">
+                        <!-- Advantage group input field -->
+                        <div class="group-input-field p-2">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="advantage-group-input[]"
+                                    placeholder="advantage fields" required>
+
+                            </div>
 
                         </div>
-
                     </div>
+                    <!-- Advantage group input row end -->
                 </div>
-                <!-- Advantage group input row end -->
+                <!-- Advantage group with input -->
             </div>
-            <!-- Advantage group with row end -->
+            <!-- Advantage groupwrapper -->
 
         </div>
         <!-- Advantage accordion body -->

@@ -33,41 +33,39 @@
 
             </div>
 
-            <!-- part  group with input -->
-            <div id="part-group-with-input-1">
-                <div class="group-input-row">
-                    <!-- groups main title bar -->
-                    <div class="bg-dark text-white h5 p-2 add-new-group-field">
-                        <div class="row">
-                            <div class="col-md-10">Group One</div>
-                            <div class="col-md-2">
-                                <button class="btn btn-success">
-                                    <i class="fa-solid fa-edit"></i>
-                                </button>
-                                <button class="btn btn-danger">
-                                    <i class="fa-solid fa-minus"></i>
-                                </button>
+            <!-- part group wrapper -->
+            <div id="part-group-wrapper">
+
+                <!-- part  group with input -->
+                <div class="part-group-with-input" item-no="1">
+                    <div class="group-input-row">
+                        <!-- groups main title bar -->
+                        <div class="bg-dark text-white h5 p-2 add-new-group-field">
+                            <div class="row">
+                                <div class="col-md-12">Part Group Fields</div>
+
+                            </div>
+                        </div>
+
+                        <!-- part group input field -->
+                        <div class="part-group-1 p-2">
+                            <div class="form-group">
+                                <input type="text" class="form-control mt-2" name="part-group-input[]"
+                                    class="part-group-innput" placeholder="Part Group Field" required>
+                                <input type="text" class="form-control mt-2" name="part-group-input[]"
+                                    class="part-group-input" placeholder="Part Group Field" required>
+                                <input type="text" class="form-control mt-2" name="part-group-input[]"
+                                    class="part-group-input" placeholder="Part Group Field" required>
+                                <input type="text" class="form-control mt-2" name="part-group-input[]"
+                                    class="part-group-input" placeholder="Part Group Field" required>
+                                <input type="text" class="form-control mt-2" name="part-group-input[]"
+                                    class="part-group-input" placeholder="Part Group Field" required>
                             </div>
                         </div>
                     </div>
-
-                    <!-- part group input field -->
-                    <div class="part-group-1 p-2">
-                        <div class="form-group">
-                            <input type="text" class="form-control mt-2" name="part-group-1-input-1"
-                                class="part-group-innput" placeholder="Part Group Field">
-                            <input type="text" class="form-control mt-2" name="part-group-1-input-2"
-                                class="part-group-input" placeholder="Part Group Field">
-                            <input type="text" class="form-control mt-2" name="part-group-1-input-3"
-                                class="part-group-input" placeholder="Part Group Field">
-                            <input type="text" class="form-control mt-2" name="part-group-1-input-4"
-                                class="part-group-input" placeholder="Part Group Field">
-                            <input type="text" class="form-control mt-2" name="part-group-1-input-5"
-                                class="part-group-input" placeholder="Part Group Field">
-                        </div>
-                    </div>
+                    <!-- part group input row end -->
                 </div>
-                <!-- part group input row end -->
+                <!-- part group wrapper -->
             </div>
             <!-- group with row end -->
 
